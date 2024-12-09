@@ -27,7 +27,6 @@ export class CElementBase {
         let dummy = document.createElement('div')
         dummy.innerHTML = html
         dummy.children[0].setAttribute('id', id)
-        dummy.outerHTML = dummy.innerHTML
         let app = document.getElementById(this.root)
         app.append(dummy.children[0])
         this.h5 = document.getElementById(id)
