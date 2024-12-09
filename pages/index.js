@@ -37,7 +37,9 @@ export default function index() {
                 (new CLabel).setText('x Bootstrap5').setFontSize(18).setTextColor('white').setBold(),
                 (new CLabel).setText('建構中 20241209').setTextColor('yellow'),
                 (new CButton).setLabel('Home').setLabelColor('white').setClasses(['ms-auto']).setBackground(`rgba(113,44,249)`).setViewById('content', section_home),
-                (new CButton).setLabel('Design').setLabelColor('white').setBackground(`rgba(113,44,249)`),
+                (new CButton).setLabel('Github').setLabelColor('white').setBackground(`rgba(113,44,249)`).on('click', () => {
+                    window.open('https://github.com/highQ77/chain.js', '_blank')
+                }),
             ]),
             (new CStackH).setClasses(['p-1', 'shadow-lg']).setBackground(`rgb(164, 119, 255)`),
         ]),
