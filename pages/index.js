@@ -1,3 +1,4 @@
+import "../bootstrap/js/bootstrap.js"
 import { CStackH } from "../component/chain/layout/CStackH.js";
 import { CStackV } from "../component/chain/layout/CStackV.js";
 import { CContainer } from "../component/chain/layout/CContainer.js";

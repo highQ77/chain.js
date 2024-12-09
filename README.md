@@ -1,10 +1,6 @@
 # chain.js
 鏈式網頁建構框架
 
-installation step (bootstrap)
-```
-npm i
-```
+1. install vscode plugin - live server
 
-install vscode plugin - live server
-click Go Live button at bottom right corner
+2. click Go Live button at bottom right corner
