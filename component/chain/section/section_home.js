@@ -8,6 +8,7 @@ import { CStackV } from "../layout/CStackV.js"
 export function section_home() {
     return (new CStackV).setChildren([
         (new CLabel).setText('Welcome to Chain.js').setFontSize(18).setBold(),
+        (new CLabel).setText('建構中 20241209').setTextColor('red'),
         (new CLabel).setText('下方有簡單的例子展示何謂鏈式網頁建構與特色：'),
         (new CEmpty),
         (new CLabel).setText('1. 有賴於編輯器自動縮排剛好可以看清楚資料層級結構'),

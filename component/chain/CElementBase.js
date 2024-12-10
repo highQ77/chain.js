@@ -154,6 +154,18 @@ export class CElementBase {
         return this
     }
 
+    /** set text color */
+    setTextColor(color = 'gray') {
+        this.h5.style.color = color
+        return this
+    }
+
+    /** font size */
+    setFontSize(size = 14) {
+        this.h5.style.fontSize = `${size}px`
+        return this
+    }
+
     /** event - remove event by calling destroy function */
     on(eventName, execFun) {
         this.slot.addEventListener(eventName, execFun)

@@ -36,20 +36,6 @@ export class CButton extends CElementBase {
         return this
     }
 
-    /** button label text */
-    setLabelColor(color = '') {
-        const btn = this.h5
-        btn.style.color = color
-        return this
-    }
-
-    /** button label font size */
-    setFontSize(size = 14) {
-        const btn = this.h5
-        btn.style.fontSize = `${size}px`
-        return this
-    }
-
     /** set view by id */
     setViewById(id = '', view = () => { }) {
         this.on('click', () => {
